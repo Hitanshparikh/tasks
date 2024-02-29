@@ -26,7 +26,7 @@ function saveTaskToGitHub(task) {
     const tasksText = `Name: ${task.name}, Group: ${task.group}, Due: ${task.dueDate}`;
     
     // Assume "tasks.txt" is the file in your GitHub repository
-    const githubUrl = 'https://github.com/Hitanshparikh/tasks.github.io/blob/main/tasks.txt';
+    const githubUrl = 'https://github.com/Hitanshparikh/tasks/blob/main/tasks.txt';
 
     // Fetch the current content of the file
     fetch(githubUrl)
@@ -52,7 +52,7 @@ function fetchTasksFromGitHub() {
     // This example is simplified and does not handle authentication.
 
     // Assume "tasks.txt" is the file in your GitHub repository
-    const githubUrl = 'https://github.com/Hitanshparikh/tasks.github.io/blob/main/tasks.txt';
+    const githubUrl = 'https://github.com/Hitanshparikh/tasks/blob/main/tasks.txt';
 
     // Fetch the content of the file
     fetch(githubUrl)
